@@ -1,0 +1,100 @@
+@config "../../tailwind.config.js";
+@import "tailwindcss";
+
+
+@theme {
+   
+    --color-primary: #7D0000;
+    --color-secondary: #125432;
+    --color-accent: #01293A;
+
+}
+
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #555;
+}
+
+.mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        max-height 0.4s ease,
+        opacity 0.3s ease,
+        visibility 0.3s ease;
+}
+
+.mobile-menu.is-open {
+    max-height: 500px;
+    opacity: 1;
+    visibility: visible;
+}
+.menu-toggle {
+    width: 40px;
+    height: 40px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 6px;
+
+    padding: 0;
+    border: 0;
+    background: transparent;
+
+    cursor: pointer;
+}
+
+.menu-line {
+    display: block;
+    width: 28px;
+    height: 2px;
+
+    background: #fff;
+
+    transition:
+        transform 0.3s ease,
+        opacity 0.2s ease;
+}
+
+
+/* Open */
+
+.menu-toggle.is-open .menu-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.is-open .menu-line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.is-open .menu-line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+#hero-banner{
+    background-image: url('assets/images/hero-banner.png');
+}
+.sub-title{
+    margin-left: 12px;
+}
+.sub-title::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-accent);
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub-title.white::after{
+    background-color: #fff;
+}

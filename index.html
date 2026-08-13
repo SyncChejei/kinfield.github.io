@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kinfield</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+
+    <!-- Header -->
+    <header class="relative w-full">
+        <nav class="absolute top-0 left-0 w-full z-50 border-b border-default">
+            
+            <div class="container mx-auto px-6 lg:px-12">
+                <div class="flex items-center justify-between h-20">
+
+                    <!-- Desktop Navigation -->
+                    <div class="hidden lg:flex items-center gap-12">
+                        <a href="#" class="text-white text-base hover:text-primary">
+                            Home
+                        </a>
+
+                        <a href="#" class="text-white text-base hover:text-primary">
+                            About
+                        </a>
+
+                        <a href="#" class="text-white text-base hover:text-primary">
+                            Programs
+                        </a>
+                    </div>
+
+
+                    <!-- Logo -->
+                    <a href="/" class="relative z-[60] block w-32 lg:w-40">
+                        <img
+                            src="/assets/images/logo.svg"
+                            alt="Logo"
+                            class="w-[120px] h-auto"
+                        >
+                    </a>
+
+
+                    <!-- Desktop Right -->
+                    <div class="hidden lg:flex items-center gap-2">
+                        <a
+                            href="#"
+                            class="px-4 py-2 text-base text-white hover:text-primary"
+                        >
+                            Contact Us
+                        </a>
+
+                        <a
+                            href="#"
+                            class="px-6 py-4 text-base rounded bg-white/15 text-white hover:bg-primary"
+                        >
+                            Explore Programs
+                        </a>
+                    </div>
+
+
+                    <!-- Mobile Toggle -->
+                    <button
+                        id="menu-toggle"
+                        class="menu-toggle flex lg:hidden relative z-[60]"
+                        type="button"
+                        aria-label="Toggle menu"
+                        aria-expanded="false"
+                    >
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                        <span class="menu-line"></span>
+                    </button>
+
+                </div>
+
+
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="absolute left-0 w-full mobile-menu lg:hidden bg-white">
+                    <div class="flex flex-col items-start gap-6 py-8 px-6">
+
+                        <a href="#" class="text-primary text-lg hover:text-primary">
+                            Home
+                        </a>
+
+                        <a href="#" class="text-primary text-lg hover:text-primary">
+                            About
+                        </a>
+
+                        <a href="#" class="text-primary text-lg hover:text-primary">
+                            Programs
+                        </a>
+
+                        <a href="#" class="text-primary text-lg hover:text-primary">
+                            Contact Us
+                        </a>
+
+                        <a
+                            href="#"
+                            class="px-6 py-4 rounded border border-primary bg-primary text-white hover:bg-transparent hover:text-primary hover:border"
+                        >
+                            Explore Programs
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section
+            id="hero-banner"
+            class="min-h-screen flex items-end bg-cover bg-center bg-fixed relative"
+        >
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/50"></div>
+
+            <!-- Content -->
+            <div class="w-full relative z-10 text-white border-t border-default">
+                <div class="container mx-auto flex flex-row">
+                    <div class="basis-5xl p-12 pb-[86px]">
+                        <h1 class="text-5xl md:text-7xl lg:text-[96px] font-semibold">
+                            Build Future at Kinfield University
+                        </h1>
+                    </div>
+                    <div class="basis-[460px] flex flex-col gap-12 justify-center px-12">
+                        <p class="text-base text-white/80">
+                            A modern campus for curious minds, hands-on learning, supportive mentors, and global-ready programs designed to help you thrive.
+                        </p>
+                        <a
+                            href="#"
+                            class="self-start font-semibold rounded boder hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
+                        >
+                            Explore Programs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="py-24">
+            <div class="container mx-auto px-12 flex flex-col gap-8">
+                <h6 class="sub-title relative text-sm text-heading">About Edfield</h6>
+                <div class="flex gap-24">
+                    <h2 class="font-semibold text-[28px] leading-[39.2px] text-heading basis-1/2">
+                        A Modern University Experience Built for Real-World Impact
+                    </h2>
+                    <div class="text-base basis-1/2 flex flex-col gap-6">
+                        <p>
+                            Kinfield is a forward-thinking university focused on practical learning, critical thinking, and meaningful community impact. Our classes blend strong academic foundations with real-world projects, so students graduate with skills, confidence, and a clear direction." make the heading longer
+                        </p>
+                        <p>
+                            Beyond the classroom, students collaborate with industry partners, engage in interdisciplinary work, and learn from faculty who bring real professional experience into teaching.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="border-t border-gray">
+            <div class="container mx-auto flex ">
+                <div class="basis-1/2 p-12">
+                    <img class="w-full rounded-lg object-cover h-170" src="assets/images/image-1.png">
+                </div>
+                <div class="basis-1/2 py-12 border-l border-gray">
+                    <div class="text-heading px-12 flex flex-col gap-8 pb-24">
+                        <h6 class="sub-title relative text-sm">What We Stand For</h6>
+                        <h2 class="font-semibold text-[28px] leading-[39.2px] basis-1/2">
+                            Simple principles that shape every class, lab, and campus experience.
+                        </h2>
+                    </div>
+                    <div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                01
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Student-First Support
+                            </div>
+                            <p class="basis-1/2">
+                                Advisors and mentors help you stay on track and grow.
+                            </p>
+                        </div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                02
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Academic Excellence
+                            </div>
+                            <p class="basis-1/2">
+                                Clear standards, strong teaching, and consistent improvement across programs.
+                            </p>
+                        </div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                03
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Practical Learning
+                            </div>
+                            <p class="basis-1/2">
+                                Projects, labs, and real cases that match today’s industry needs.
+                            </p>
+                        </div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                04
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Inclusive Community
+                            </div>
+                            <p class="basis-1/2">
+                                A welcoming campus where every voice is respected and valued.
+                            </p>
+                        </div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                05
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Innovation and Curiosity
+                            </div>
+                            <p class="basis-1/2">
+                                We encourage asking better questions and testing new ideas.
+                            </p>
+                        </div>
+                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                            <div class="text-heading text-xl basis-[49px]">
+                                06
+                            </div>
+                            <div class="text-heading text-xl basis-1/2">
+                                Impact-Driven Mindset
+                            </div>
+                            <p class="basis-1/2">
+                                Learning that leads to positive change in society and the environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+               
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="bg-primary">
+            <div class=" text-white border-b border-default">
+                <div class="container mx-auto flex">
+                    <div class="basis-1/2 flex flex-col gap-8 p-12">
+                        <h6 class="sub-title white relative text-sm">Inside Campus</h6>
+                        <h2 class="font-medium text-[40px] leading-12 tracking-normal">>
+                            Step Inside Kinfield
+                        </h2>
+                    </div>
+                    <div class="flex basis-1/2 flex-col justify-end border-l border-default">
+                        <p class="p-12 text-base">Take a quick campus tour to see our classrooms, studios, labs, and student life in motion across campus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto  p-12">
+                <img class="w-full rounded-lg object-cover h-160" src="assets/images/image-2.jpg">
+            </div>
+        </section>
+        <section class="bg-[#F8FBFC] py-24">
+            <div class="container mx-auto flex flex-col gap-16 px-12">
+                <div class="text-base flex flex-col items-center text-heading gap-8">
+                    <h6 class="sub-title relative text-sm">Programs</h6>
+                    <h2 class="font-medium text-[40px] leading-12 tracking-normal">
+                        Browse Programs
+                    </h2>
+                </div>
+                <div class="flex gap-6">
+                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                        <div class="flex flex-row justify-between items-center">
+                            <img class="m-6 w-8 h-8" src="assets/images/programs/computer-science.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-2 px-4">Undergraduate</h6>
+                        </div>
+                        <div class="flex flex-col p-6 gap-4">
+                            <h5 class="">Computer Science</h5>
+                            <hr class="border-[#EBF2F5]" />
+                            <p>Learn programming, data structures, and modern software development through labs and team projects.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                        <div class="flex flex-row justify-between items-center">
+                            <img class="m-6 w-8 h-8" src="assets/images/programs/data-science.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-2 px-4">Graduate</h6>
+                        </div>
+                        <div class="flex flex-col p-6 gap-4">
+                            <h5 class="">Data Science</h5>
+                            <hr class="border-[#EBF2F5]" />
+                            <p>Turn data into decisions using analytics, visualization, and practical machine learning for real business scenarios.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                        <div class="flex flex-row justify-between items-center">
+                            <img class="m-6 w-8 h-8" src="assets/images/programs/business-administration.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-2 px-4">Graduate</h6>
+                        </div>
+                        <div class="flex flex-col p-6 gap-4">
+                            <h5 class="">Business Administration</h5>
+                            <hr class="border-[#EBF2F5]" />
+                            <p>Build leadership and strategy skills for modern, fast evolving business environments and organizational challenges.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                        <div class="flex flex-row justify-between items-center">
+                            <img class="m-6 w-8 h-8" src="assets/images/programs/finance.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-2 px-4">Undergraduate</h6>
+                        </div>
+                        <div class="flex flex-col p-6 gap-4">
+                            <h5 class="">Finance</h5>
+                            <hr class="border-[#EBF2F5]" />
+                            <p>Understand financial planning, markets, and decision-making through practical case studies and modern tools.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="border-b border-gray">
+            <div class="container mx-auto flex flex-row">
+                <div class="w-xl shrink-0 text-heading flex flex-col gap-8 p-12">
+                    <h6 class="sub-title relative text-sm">Testimonials</h6>
+                    <h2 class="font-medium text-[40px] leading-12 tracking-normal">
+                        From Our Students
+                    </h2>
+                </div>
+                <div class="w-216 shrink-0 p-12 border-l border-gray">
+                    <div class="swiper testimonialSwiper relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="flex flex-col gap-25.5">
+                                    <p class="text-accent text-[28px]">
+                                        “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
+                                    </p>
+                                    <div class="flex flex-col gap-4">
+                                        <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
+                                        <div>
+                                            <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
+                                            <p>Undergraduate Student,<br> Computer Science</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="swiper-slide">
+                                <div class="flex flex-col gap-25.5">
+                                    <p class="text-accent text-[28px]">
+                                        “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
+                                    </p>
+                                    <div class="flex flex-col gap-4">
+                                        <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
+                                        <div>
+                                            <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
+                                            <p>Undergraduate Student,<br> Computer Science</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex flex-col gap-25.5">
+                                    <p class="text-accent text-[28px]">
+                                        “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
+                                    </p>
+                                    <div class="flex flex-col gap-4">
+                                        <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
+                                        <div>
+                                            <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
+                                            <p>Undergraduate Student,<br> Computer Science</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-[14px] absolute bottom-0 right-0 z-20">
+                            <button class="testimonial-prev cursor-pointer rounded-full p-3 bg-[#D6D6D6] hover:bg-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+                                    <path d="M18.0006 7.50042C18.0006 7.69931 17.9215 7.89011 17.7809 8.03075C17.6402 8.17139 17.4496 8.25047 17.2506 8.25047H2.56091L8.03122 13.7198C8.1009 13.7894 8.15617 13.8722 8.19389 13.9632C8.23159 14.0543 8.25101 14.1518 8.25101 14.2505C8.25101 14.349 8.23159 14.4465 8.19389 14.5376C8.15617 14.6286 8.1009 14.7114 8.03122 14.781C7.96153 14.8507 7.8788 14.906 7.78776 14.9437C7.69672 14.9814 7.59913 15.0008 7.50059 15.0008C7.40204 15.0008 7.30446 14.9814 7.21342 14.9437C7.12237 14.906 7.03964 14.8507 6.96996 14.781L0.21996 8.03099C0.150228 7.96139 0.0949081 7.87871 0.0571681 7.78763C0.0194281 7.69655 0 7.59899 0 7.50042C0 7.40185 0.0194281 7.30427 0.0571681 7.21321C0.0949081 7.12217 0.150228 7.03945 0.21996 6.96979L6.96996 0.219792C7.1107 0.0790681 7.30157 0 7.50059 0C7.69961 0 7.89048 0.0790681 8.03122 0.219792C8.17195 0.360528 8.25101 0.5514 8.25101 0.75042C8.25101 0.94944 8.17195 1.14031 8.03122 1.28105L2.56091 6.75042H17.2506C17.4496 6.75042 17.6402 6.82944 17.7809 6.97009C17.9215 7.11074 18.0006 7.30151 18.0006 7.50042Z" fill="white"/>
+                                </svg>
+                            </button>
+
+                            <button class="testimonial-next cursor-pointer rounded-full p-3 bg-[#D6D6D6] hover:bg-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+                                    <path d="M17.7806 8.03099L11.0306 14.781C10.8899 14.9217 10.6991 15.0008 10.5 15.0008C10.3009 15.0008 10.1101 14.9217 9.96936 14.781C9.8286 14.6403 9.74964 14.4494 9.74964 14.2505C9.74964 14.0514 9.8286 13.8605 9.96936 13.7198L15.4397 8.25047H0.75C0.551088 8.25047 0.360324 8.17139 0.219672 8.03075C0.0790199 7.89011 0 7.69931 0 7.50042C0 7.30151 0.0790199 7.11074 0.219672 6.97009C0.360324 6.82944 0.551088 6.75042 0.75 6.75042H15.4397L9.96936 1.28105C9.8286 1.14031 9.74964 0.94944 9.74964 0.75042C9.74964 0.5514 9.8286 0.360528 9.96936 0.219792C10.1101 0.0790681 10.3009 0 10.5 0C10.6991 0 10.8899 0.0790681 11.0306 0.219792L17.7806 6.96979C17.8504 7.03945 17.9057 7.12217 17.9435 7.21321C17.9812 7.30427 18.0006 7.40185 18.0006 7.50042C18.0006 7.59899 17.9812 7.69655 17.9435 7.78763C17.9057 7.87871 17.8504 7.96139 17.7806 8.03099Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-12">
+            <div class="border-b border-gray pt-24 pb-12">
+                <div class="container mx-auto flex flex-row px-12">
+                    <div class="text-heading flex flex-col gap-8">
+                        <h6 class="sub-title relative text-sm">Events</h6>
+                        <h2 class="font-medium text-[40px] leading-12 tracking-normal">
+                            Upcoming Events
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b border-gray">
+                <div class="container mx-auto p-12 border-l border-r border-gray flex flex-col gap-4">
+                    <div class="flex flex-row">
+                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
+                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                                <h6 class="text-heading text-xl font-medium">01</h6>
+                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
+                                    <p class="text-heading">Sat,<br> March 8 2025</p>
+                                    <p>10:00–11:30 WIB</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
+                                <div class="flex flex-col gap-2">
+                                    <h6 class="text-heading text-xl font-medium">AI Discovery Talk: Building Responsible Intelligence</h6>
+                                    <p>An introduction to responsible AI, covering ethics, real-world use, and future impact.</p>
+                                </div>
+                                <p class="text-heading">Kinfield Student Only</p>
+                            </div> 
+                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                                <p class="text-heading text-[18px]">Speaker</p>
+                                <div class="flex flex-row gap-4">
+                                    <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-1.png">
+                                    <div class="flex flex-col gap-1 justify-end">
+                                        <h6 class="text-heading">Prof. Caleb Morgan</h6>
+                                        <p class="text-[14px]">Head of Computer Science</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-1.png">
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
+                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                                <h6 class="text-heading text-xl font-medium">02</h6>
+                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
+                                    <p class="text-heading">Wed,<br> April 16 2035</p>
+                                    <p>14:00–15:15 WIB</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
+                                <div class="flex flex-col gap-2">
+                                    <h6 class="text-heading text-xl font-medium">Humanities Forum: Culture, Storytelling in the Digital Age</h6>
+                                    <p>A look at how digital platforms are reshaping culture and storytelling today.</p>
+                                </div>
+                                <p class="text-heading">Open for Public</p>
+                            </div> 
+                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                                <p class="text-heading text-[18px]">Speaker</p>
+                                <div class="flex flex-row gap-4">
+                                    <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-2.png">
+                                    <div class="flex flex-col gap-1 justify-end">
+                                        <h6 class="text-heading">Dr. Amaya Laurent</h6>
+                                        <p class="text-[14px]">Dean of Humanities</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-2.png">
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
+                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                                <h6 class="text-heading text-xl font-medium">03</h6>
+                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
+                                    <p class="text-heading">Fri,<br>June 6, 2035</p>
+                                    <p>09:30–11:00 WIB</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
+                                <div class="flex flex-col gap-2">
+                                    <h6 class="text-heading text-xl font-medium">Career Lab Workshop: Internship to First Job Roadmap</h6>
+                                    <p>Practical guidance on moving from internships to full-time roles.</p>
+                                </div>
+                                <p class="text-heading">Open for Public</p>
+                            </div> 
+                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                                <p class="text-heading text-[18px]">Speaker</p>
+                                <div class="flex flex-row gap-4">
+                                    <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-3.png">
+                                    <div class="flex flex-col gap-1 justify-end">
+                                        <h6 class="text-heading">Michael Abrams</h6>
+                                        <p class="text-[14px]">Career Services Lead</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-3.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-primary">
+            <div class="container mx-auto flex flex-row">
+                <div class="p-12 border-r border-default basis-1/2">
+                    <img src="assets/images/image-3.png" class="w-155.75 h-118 object-cover rounded-lg">
+                </div>
+                <div class="flex flex-col justify-center text-white basis-1/2">
+                        <div class="flex flex-col gap-16 border-y border-default p-12">
+                            <div class="flex-col flex gap-8">
+                                <h6 class="sub-title white relative text-sm">Contact Us</h6>
+                                <div class="flex-col flex gap-4">
+                                    <h2 class="font-medium text-[40px] leading-12 tracking-normal">
+                                        Talk with Admissions
+                                    </h2>
+                                    <p>
+                                        Ask about programs, tuition, scholarships, or campus life, we’ll help you take the next step.
+                                    </p>
+                                </div>
+                            </div>
+                             <a
+                                href="#"
+                                class="self-start font-semibold rounded border-1 hover:border-white hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
+                            >
+                                Contact Our Admin
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="container mx-auto flex flex-row">
+                <div class="p-12 border-r border-default basis-1/2">
+                    <div class="flex-col flex gap-8">
+                        <h6 class="sub-title relative text-sm text-heading">FAQ</h6>
+                        <div class="flex-col flex gap-4">
+                            <h2 class="font-medium text-[40px] leading-12 tracking-normal text-heading">
+                                Help Center
+                            </h2>
+                            <p>
+                                Explore common questions from students and parents, answered by our admissions team.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex flex-row justify-between ">
+                        <p>Or get in touch with our <br> Support Team.</p>
+                        <a class="self-start" href="mailto:hello@kinfield.edu">hello@kinfield.edu</a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center text-white basis-1/2">
+                        <div class="flex flex-col gap-16 border-y border-default p-12">
+                             <!-- Item 1 -->
+                            <div class="border-b border-gray-200">
+                                <button
+                                    type="button"
+                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
+                                >
+                                    <span class="text-xl font-semibold text-heading">
+                                        What programs do you offer?
+                                    </span>
+
+                                    <span class="accordion-icon text-2xl transition-transform duration-300">
+                                        +
+                                    </span>
+                                </button>
+
+                                <div class="accordion-content hidden pb-6">
+                                    <p class="text-gray-600">
+                                        We offer undergraduate and graduate programs designed to
+                                        prepare students for real-world careers.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="border-b border-gray-200">
+                                <button
+                                    type="button"
+                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
+                                >
+                                    <span class="text-xl font-semibold text-heading">
+                                        How do I apply?
+                                    </span>
+
+                                    <span class="accordion-icon text-2xl transition-transform duration-300">
+                                        +
+                                    </span>
+                                </button>
+
+                                <div class="accordion-content hidden pb-6">
+                                    <p class="text-gray-600">
+                                        You can submit your application online through our admissions
+                                        portal.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="border-b border-gray-200">
+                                <button
+                                    type="button"
+                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
+                                >
+                                    <span class="text-xl font-semibold text-heading">
+                                        Do you offer scholarships?
+                                    </span>
+
+                                    <span class="accordion-icon text-2xl transition-transform duration-300">
+                                        +
+                                    </span>
+                                </button>
+
+                                <div class="accordion-content hidden pb-6">
+                                    <p class="text-gray-600">
+                                        Yes. We offer several scholarships and financial assistance
+                                        options for eligible students.
+                                    </p>
+                                </div>
+                            </div>
+                          
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 text-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col justify-between gap-8 md:flex-row">
+
+                <div>
+                    <h2 class="text-2xl font-bold">Logo</h2>
+                    <p class="mt-3 text-gray-400">
+                        Your company description.
+                    </p>
+                </div>
+
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-gray-400">Facebook</a>
+                    <a href="#" class="hover:text-gray-400">Instagram</a>
+                    <a href="#" class="hover:text-gray-400">LinkedIn</a>
+                </div>
+
+            </div>
+
+            <div class="mt-10 border-t border-gray-800 pt-6 text-sm text-gray-500">
+                © 2026 Your Company. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script> 
+</body>
+</html>
