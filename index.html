@@ -144,7 +144,7 @@
                         </p>
                         <a
                             href="#"
-                            class="self-start font-semibold rounded boder hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
+                            class="self-start font-semibold rounded border hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
                         >
                             Explore Programs
                         </a>
@@ -267,7 +267,7 @@
                 <div class="container mx-auto flex">
                     <div class="basis-1/2 flex flex-col gap-8 p-12">
                         <h6 class="sub-title white relative text-sm">Inside Campus</h6>
-                        <h2 class="font-medium text-[40px] leading-12 tracking-normal">>
+                        <h2 class="font-medium text-[40px] leading-12 tracking-normal">
                             Step Inside Kinfield
                         </h2>
                     </div>
@@ -520,7 +520,7 @@
         </section>
         <section class="bg-primary">
             <div class="container mx-auto flex flex-row">
-                <div class="p-12 border-r border-default basis-1/2">
+                <div class="p-12  border-r border-default basis-1/2">
                     <img src="assets/images/image-3.png" class="w-155.75 h-118 object-cover rounded-lg">
                 </div>
                 <div class="flex flex-col justify-center text-white basis-1/2">
@@ -548,7 +548,7 @@
         </section>
         <section class="">
             <div class="container mx-auto flex flex-row">
-                <div class="p-12 border-r border-default basis-1/2">
+                <div class="px-12 py-24 border-r border-default basis-1/2 flex flex-col justify-between">
                     <div class="flex-col flex gap-8">
                         <h6 class="sub-title relative text-sm text-heading">FAQ</h6>
                         <div class="flex-col flex gap-4">
@@ -560,84 +560,152 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-row justify-between ">
+                    <div class="flex flex-row justify-between items-end">
                         <p>Or get in touch with our <br> Support Team.</p>
-                        <a class="self-start" href="mailto:hello@kinfield.edu">hello@kinfield.edu</a>
+                        <a class="self-end" href="mailto:hello@kinfield.edu">hello@kinfield.edu</a>
                     </div>
                 </div>
-                <div class="flex flex-col justify-center text-white basis-1/2">
-                        <div class="flex flex-col gap-16 border-y border-default p-12">
-                             <!-- Item 1 -->
-                            <div class="border-b border-gray-200">
-                                <button
-                                    type="button"
-                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
-                                >
-                                    <span class="text-xl font-semibold text-heading">
-                                        What programs do you offer?
+                <div class="flex flex-col justify-center py-24 basis-1/2 border-l border-gray">
+                        <div class="flex flex-col border-t border-gray">
+                            <!-- Accordion Item -->
+                            <div class="border-b border-gray  px-12 py-6">
+                                <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left"
+                                    aria-expanded="false">
+                                    <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
+                                        <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                        <span
+                                            class="accordion-icon-vertical absolute h-[15px] w-[2px] bg-heading transition-transform duration-300 ease-in-out"></span>
                                     </span>
-
-                                    <span class="accordion-icon text-2xl transition-transform duration-300">
-                                        +
+                            
+                                    <span class="text-[18px] font-medium text-heading">
+                                        What programs does Kinfield offer?
                                     </span>
                                 </button>
-
-                                <div class="accordion-content hidden pb-6">
-                                    <p class="text-gray-600">
-                                        We offer undergraduate and graduate programs designed to
-                                        prepare students for real-world careers.
-                                    </p>
+                            
+                                <div class="accordion-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <p class="pt-6 pl-[48px]">
+                                            Yes, we offer several scholarship and financial assistance
+                                            options for eligible students.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Item 2 -->
-                            <div class="border-b border-gray-200">
-                                <button
-                                    type="button"
-                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
-                                >
-                                    <span class="text-xl font-semibold text-heading">
+                            <!-- Accordion Item -->
+                            <div class="border-b border-gray  px-12 py-6">
+                                <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
+                                    <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
+                                        <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                        <span
+                                            class="accordion-icon-vertical absolute h-[15px] w-[2px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                    </span>
+                            
+                                    <span class="text-[18px] font-medium text-heading">
                                         How do I apply?
                                     </span>
-
-                                    <span class="accordion-icon text-2xl transition-transform duration-300">
-                                        +
-                                    </span>
                                 </button>
-
-                                <div class="accordion-content hidden pb-6">
-                                    <p class="text-gray-600">
-                                        You can submit your application online through our admissions
-                                        portal.
-                                    </p>
+                            
+                                <div class="accordion-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <p class="pt-6 pl-[48px]">
+                                            Yes, we offer several scholarship and financial assistance
+                                            options for eligible students.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- Item 3 -->
-                            <div class="border-b border-gray-200">
-                                <button
-                                    type="button"
-                                    class="accordion-btn flex w-full items-center justify-between py-6 text-left"
-                                >
-                                    <span class="text-xl font-semibold text-heading">
+                            <!-- Accordion Item -->
+                            <div class="border-b border-gray  px-12 py-6">
+                                <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
+                                    <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
+                                        <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                        <span
+                                            class="accordion-icon-vertical absolute h-[15px] w-[2px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                    </span>
+                            
+                                    <span class="text-[18px] font-medium text-heading">
                                         Do you offer scholarships?
                                     </span>
-
-                                    <span class="accordion-icon text-2xl transition-transform duration-300">
-                                        +
-                                    </span>
                                 </button>
-
-                                <div class="accordion-content hidden pb-6">
-                                    <p class="text-gray-600">
-                                        Yes. We offer several scholarships and financial assistance
-                                        options for eligible students.
-                                    </p>
+                            
+                                <div class="accordion-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <p class="pt-6 pl-[48px]">
+                                            Yes, we offer several scholarship and financial assistance
+                                            options for eligible students.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                          
+
+                            <!-- Accordion Item -->
+                            <div class="border-b border-gray  px-12 py-6">
+                                <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
+                                    <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
+                                        <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                        <span
+                                            class="accordion-icon-vertical absolute h-[15px] w-[2px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                    </span>
+                            
+                                    <span class="text-[18px] font-medium text-heading">
+                                        Is the campus international-student friendly?
+                                    </span>
+                                </button>
+                            
+                                <div class="accordion-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <p class="pt-6 pl-[48px]">
+                                            Yes. We provide guidance for admissions, accommodation, and student support services.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Accordion Item -->
+                            <div class="border-b border-gray  px-12 py-6">
+                                <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
+                                    <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
+                                        <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                        <span
+                                            class="accordion-icon-vertical absolute h-[15px] w-[2px] bg-heading transition-transform duration-300 ease-in-out"></span>
+                                    </span>
+                            
+                                    <span class="text-[18px] font-medium text-heading">
+                                        Can I visit the campus before applying?
+                                    </span>
+                                </button>
+                                <div class="accordion-content grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+                                    <div class="overflow-hidden">
+                                        <p class="pt-6 pl-[48px]">
+                                            Absolutely. Join campus tours or book an admissions consultation session.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                 </div>
+            </div>
+        </section>
+        <section class="border-t border-gray bg-[#F8FBFC]">
+            <div class="container mx-auto flex flex-row ">
+            <div class="basis-1/2 py-12">
+                <div class="text-heading px-12 flex flex-col gap-8">
+                    <h6 class="sub-title relative text-sm">Newsletter Sign Up</h6>
+                    <h2 class="font-semibold text-[28px] leading-[39.2px] basis-1/2">
+                        Get the latest updates on admissions, upcoming events, and new blog posts.
+                    </h2>
+                </div>
+            </div>
+            <div class="basis-1/2 py-12 border-l border-gray">
+                <div class=" px-12 flex flex-col gap-8 ">
+                    <a href="#"
+                        class="self-start font-semibold rounded border-1 hover:border-white bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition ">
+                        Subscribe
+                    </a>
+                </div>
+            </div>
             </div>
         </section>
     </main>

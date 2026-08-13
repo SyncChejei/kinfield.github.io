@@ -17,6 +17,16 @@ body {
     font-style: normal;
     color: #555;
 }
+a{
+    color: var(--color-accent);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: var(--color-primary);
+}
 
 .mobile-menu {
     max-height: 0;
