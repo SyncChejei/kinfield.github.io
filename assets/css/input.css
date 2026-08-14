@@ -17,17 +17,38 @@ body {
     font-style: normal;
     color: #555;
 }
-a{
+a:not(.btn, .menu-item){
     color: var(--color-accent);
 }
 
-a:hover{
+a:hover:not(.btn, .menu-item){
     text-decoration: underline;
 }
-a:visited{
+a:visited:not(.btn, .menu-item){
     color: var(--color-primary);
 }
+.btn svg path{
+    fill: currentColor;
+}
 
+footer a{
+    color: inherit !important;
+}
+footer .social-media a{
+    position: relative;
+}
+footer .social-media a:after{
+    content: "";
+    position: absolute;
+    right: -16px;
+    height: 23px;
+    background: #FFFFFF14;
+    width: 1px;
+
+}
+footer .social-media a:last-child:after{
+    display: none;
+}
 .mobile-menu {
     max-height: 0;
     overflow: hidden;
@@ -108,3 +129,9 @@ a:visited{
 .sub-title.white::after{
     background-color: #fff;
 }
+@media (max-width: 1024px) {
+   .testimonialSwiper {
+        padding-bottom: 67px;
+    }
+}
+

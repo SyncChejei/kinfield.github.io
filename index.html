@@ -22,47 +22,47 @@
     <header class="relative w-full">
         <nav class="absolute top-0 left-0 w-full z-50 border-b border-default">
             
-            <div class="container mx-auto px-6 lg:px-12">
-                <div class="flex items-center justify-between h-20">
+            <div class="container mx-auto px-6 md:px-8 lg:px-12">
+                <div class="flex items-center justify-between">
 
                     <!-- Desktop Navigation -->
-                    <div class="hidden lg:flex items-center gap-12">
-                        <a href="#" class="text-white text-base hover:text-primary">
+                    <div class="hidden flex-1 lg:flex items-center gap-12">
+                        <a href="#" class="text-white menu-item text-base hover:text-primary">
                             Home
                         </a>
 
-                        <a href="#" class="text-white text-base hover:text-primary">
+                        <a href="#" class="text-white menu-item text-base hover:text-primary">
                             About
                         </a>
 
-                        <a href="#" class="text-white text-base hover:text-primary">
+                        <a href="#" class="text-white menu-item text-base hover:text-primary">
                             Programs
                         </a>
                     </div>
 
 
                     <!-- Logo -->
-                    <a href="/" class="relative z-[60] block w-32 lg:w-40">
+                    <a href="/" class="lg:flex-1 z-60 block w-[159px] lg:w-[120px] py-5 pr-[38px] lg:pr-0 lg:py-[27px] border-r lg:border-x border-default">
                         <img
                             src="/assets/images/logo.svg"
                             alt="Logo"
-                            class="w-[120px] h-auto"
+                            class="w-30 h-auto lg:mx-auto"
                         >
                     </a>
 
 
                     <!-- Desktop Right -->
-                    <div class="hidden lg:flex items-center gap-2">
+                    <div class="hidden flex-1 lg:flex items-center justify-end gap-2">
                         <a
                             href="#"
-                            class="px-4 py-2 text-base text-white hover:text-primary"
+                            class="px-4 py-2 menu-item text-base text-white hover:text-primary"
                         >
                             Contact Us
                         </a>
 
                         <a
                             href="#"
-                            class="px-6 py-4 text-base rounded bg-white/15 text-white hover:bg-primary"
+                            class="btn px-6 py-4 text-base rounded bg-white/15 text-white hover:bg-primary"
                         >
                             Explore Programs
                         </a>
@@ -72,7 +72,7 @@
                     <!-- Mobile Toggle -->
                     <button
                         id="menu-toggle"
-                        class="menu-toggle flex lg:hidden relative z-[60]"
+                        class="menu-toggle lg:flex-1 flex lg:hidden relative z-[60]"
                         type="button"
                         aria-label="Toggle menu"
                         aria-expanded="false"
@@ -87,27 +87,27 @@
 
                 <!-- Mobile Menu -->
                 <div id="mobile-menu" class="absolute left-0 w-full mobile-menu lg:hidden bg-white">
-                    <div class="flex flex-col items-start gap-6 py-8 px-6">
+                    <div class="flex flex-col items-start pb-6 lg:gap-6 lg:py-8 lg:px-6">
 
-                        <a href="#" class="text-primary text-lg hover:text-primary">
+                        <a href="#" class="p-4 w-full text-primary menu-item text-lg hover:text-white hover:bg-primary">
                             Home
                         </a>
 
-                        <a href="#" class="text-primary text-lg hover:text-primary">
+                        <a href="#" class="p-4  w-full text-primary menu-item text-lg hover:text-white hover:bg-primary">
                             About
                         </a>
 
-                        <a href="#" class="text-primary text-lg hover:text-primary">
+                        <a href="#" class="p-4  w-full text-primary menu-item text-lg hover:text-white hover:bg-primary">
                             Programs
                         </a>
 
-                        <a href="#" class="text-primary text-lg hover:text-primary">
+                        <a href="#" class="p-4  w-full text-primary menu-item text-lg hover:text-white hover:bg-primary">
                             Contact Us
                         </a>
 
                         <a
                             href="#"
-                            class="px-6 py-4 rounded border border-primary bg-primary text-white hover:bg-transparent hover:text-primary hover:border"
+                            class="btn p-4  w-full  border border-primary bg-primary text-white hover:bg-transparent hover:text-primary"
                         >
                             Explore Programs
                         </a>
@@ -132,19 +132,19 @@
 
             <!-- Content -->
             <div class="w-full relative z-10 text-white border-t border-default">
-                <div class="container mx-auto flex flex-row">
-                    <div class="basis-5xl p-12 pb-[86px]">
+                <div class="container mx-auto flex flex-col lg:flex-row">
+                    <div class="lg:basis-5xl p-6 pb-3 lg:p-12 lg:pb-[86px]">
                         <h1 class="text-5xl md:text-7xl lg:text-[96px] font-semibold">
                             Build Future at Kinfield University
                         </h1>
                     </div>
-                    <div class="basis-[460px] flex flex-col gap-12 justify-center px-12">
+                    <div class="lg:basis-[460px] flex flex-col gap-6 lg:gap-12 justify-center pt-3 pb-[25px] px-6 md:px-8 lg:px-12 lg:py-0">
                         <p class="text-base text-white/80">
                             A modern campus for curious minds, hands-on learning, supportive mentors, and global-ready programs designed to help you thrive.
                         </p>
                         <a
                             href="#"
-                            class="self-start font-semibold rounded border hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
+                            class="self-start btn font-semibold rounded border hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
                         >
                             Explore Programs
                         </a>
@@ -154,14 +154,14 @@
         </section>
 
         <!-- About -->
-        <section class="py-24">
-            <div class="container mx-auto px-12 flex flex-col gap-8">
+        <section class="py-16 md:py-22 lg:py-24">
+            <div class="container mx-auto px-4 md:px-8 lg:px-12 flex flex-col gap-5 md:gap-6 lg:gap-8">
                 <h6 class="sub-title relative text-sm text-heading">About Edfield</h6>
-                <div class="flex gap-24">
+                <div class="flex flex-col lg:flex-row gap-6 lg:gap-24">
                     <h2 class="font-semibold text-[28px] leading-[39.2px] text-heading basis-1/2">
                         A Modern University Experience Built for Real-World Impact
                     </h2>
-                    <div class="text-base basis-1/2 flex flex-col gap-6">
+                    <div class="text-base basis-1/2 flex flex-col gap-4 lg:gap-6">
                         <p>
                             Kinfield is a forward-thinking university focused on practical learning, critical thinking, and meaningful community impact. Our classes blend strong academic foundations with real-world projects, so students graduate with skills, confidence, and a clear direction." make the heading longer
                         </p>
@@ -175,19 +175,19 @@
 
         
         <section class="border-t border-gray">
-            <div class="container mx-auto flex ">
-                <div class="basis-1/2 p-12">
-                    <img class="w-full rounded-lg object-cover h-170" src="assets/images/image-1.png">
+            <div class="container mx-auto flex flex-col lg:flex-row">
+                <div class="basis-1/2 p-6 md:p-8 lg:p-12 border-b border-gray lg:border-0">
+                    <img class="w-full rounded-lg object-cover h-62.5 md:h-112.5 lg:h-170" src="assets/images/image-1.png">
                 </div>
-                <div class="basis-1/2 py-12 border-l border-gray">
-                    <div class="text-heading px-12 flex flex-col gap-8 pb-24">
+                <div class="basis-1/2 pt-8 pb-16 lg:py-12 border-l border-gray">
+                    <div class="text-heading px-6 md:px-8 lg:px-12 flex flex-col gap-8 pb-6 lg:pb-24">
                         <h6 class="sub-title relative text-sm">What We Stand For</h6>
                         <h2 class="font-semibold text-[28px] leading-[39.2px] basis-1/2">
                             Simple principles that shape every class, lab, and campus experience.
                         </h2>
                     </div>
-                    <div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                    <div class="grid grid-cols-2 lg:grid-cols-1 border-t lg:border-t-0 border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-r-1 lg:border-r-0 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 01
                             </div>
@@ -198,7 +198,7 @@
                                 Advisors and mentors help you stay on track and grow.
                             </p>
                         </div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 02
                             </div>
@@ -209,7 +209,7 @@
                                 Clear standards, strong teaching, and consistent improvement across programs.
                             </p>
                         </div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-r-1 lg:border-r-0 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 03
                             </div>
@@ -220,7 +220,7 @@
                                 Projects, labs, and real cases that match today’s industry needs.
                             </p>
                         </div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 04
                             </div>
@@ -231,7 +231,7 @@
                                 A welcoming campus where every voice is respected and valued.
                             </p>
                         </div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-r-1 lg:border-r-0 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 05
                             </div>
@@ -242,7 +242,7 @@
                                 We encourage asking better questions and testing new ideas.
                             </p>
                         </div>
-                        <div class="flex px-12 py-6 gap-4 border-b border-gray">
+                        <div class="flex flex-col lg:flex-row px-6 md:px-8 lg:px-12 py-4 lg:py-6 gap-4 border-b border-gray">
                             <div class="text-heading text-xl basis-[49px]">
                                 06
                             </div>
@@ -260,39 +260,45 @@
                
             </div>
         </section>
-
-        <!-- CTA -->
         <section class="bg-primary">
             <div class=" text-white border-b border-default">
-                <div class="container mx-auto flex">
-                    <div class="basis-1/2 flex flex-col gap-8 p-12">
+                <div class="container mx-auto flex flex-col lg:flex-row">
+                    <div class="basis-1/2 flex flex-col gap-5 lg:gap-8 px-6 md:px-8 pt-16 pb-4 lg:p-12">
                         <h6 class="sub-title white relative text-sm">Inside Campus</h6>
                         <h2 class="font-medium text-[40px] leading-12 tracking-normal">
                             Step Inside Kinfield
                         </h2>
                     </div>
                     <div class="flex basis-1/2 flex-col justify-end border-l border-default">
-                        <p class="p-12 text-base">Take a quick campus tour to see our classrooms, studios, labs, and student life in motion across campus.</p>
+                        <p class="px-6 pt-0 pb-4 md:px-8 md:pb-8 lg:p-12 text-base">Take a quick campus tour to see our classrooms, studios, labs, and student life in motion across campus.</p>
                     </div>
                 </div>
             </div>
-            <div class="container mx-auto  p-12">
-                <img class="w-full rounded-lg object-cover h-160" src="assets/images/image-2.jpg">
+            <div class="container mx-auto p-4 md:p-8 lg:p-12">
+                <div class="relative">
+                    <img class="w-full rounded-lg object-cover h-75 md:h-120 lg:h-160" src="assets/images/image-2.jpg">
+                    <a href="#" class="btn font-semibold rounded hover:bg-primary hover:text-white bg-white px-4 lg:px-6 py-2.5 lg:py-3 text-accent transition flex flex-row items-center gap-3 absolute right-3 bottom-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                            <path d="M13.75 1.25V13.75C13.75 14.0815 13.6183 14.3994 13.3839 14.6339C13.1494 14.8683 12.8315 15 12.5 15H9.375C9.0435 15 8.72556 14.8683 8.49113 14.6339C8.25669 14.3994 8.125 14.0815 8.125 13.75V1.25C8.125 0.918481 8.25669 0.600538 8.49113 0.366119C8.72556 0.131694 9.0435 0 9.375 0H12.5C12.8315 0 13.1494 0.131694 13.3839 0.366119C13.6183 0.600538 13.75 0.918481 13.75 1.25ZM4.375 0H1.25C0.918481 0 0.600538 0.131694 0.366119 0.366119C0.131694 0.600538 0 0.918481 0 1.25V13.75C0 14.0815 0.131694 14.3994 0.366119 14.6339C0.600538 14.8683 0.918481 15 1.25 15H4.375C4.7065 15 5.02444 14.8683 5.25887 14.6339C5.49331 14.3994 5.625 14.0815 5.625 13.75V1.25C5.625 0.918481 5.49331 0.600538 5.25887 0.366119C5.02444 0.131694 4.7065 0 4.375 0Z" fill="black"/>
+                        </svg>    
+                        Watch Intro
+                    </a>
+                </div>
             </div>
         </section>
-        <section class="bg-[#F8FBFC] py-24">
-            <div class="container mx-auto flex flex-col gap-16 px-12">
-                <div class="text-base flex flex-col items-center text-heading gap-8">
+        <section class="bg-[#F8FBFC] py-16 md:py-22 lg:py-24">
+            <div class="container mx-auto flex flex-col gap-8 lg:gap-16 px-6 md:px-8 lg:px-12">
+                <div class="text-base flex flex-col items-center text-heading gap-5 lg:gap-8">
                     <h6 class="sub-title relative text-sm">Programs</h6>
                     <h2 class="font-medium text-[40px] leading-12 tracking-normal">
                         Browse Programs
                     </h2>
                 </div>
-                <div class="flex gap-6">
-                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                <div class="grid gap-4 lg:gap-6 grid-cols-2 lg:grid-cols-4">
+                    <div class="flex flex-col gap-9.75 lg:gap-24 bg-white rounded-lg">
                         <div class="flex flex-row justify-between items-center">
-                            <img class="m-6 w-8 h-8" src="assets/images/programs/computer-science.png">
-                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-2 px-4">Undergraduate</h6>
+                            <img class="m-4 lg:m-6 w-4.5 lg:w-8 h-4.5 lg:h-8" src="assets/images/programs/computer-science.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-1.5 lg:py-2 px-3 lg:px-4 font-medium text-[14px]">Undergraduate</h6>
                         </div>
                         <div class="flex flex-col p-6 gap-4">
                             <h5 class="">Computer Science</h5>
@@ -300,10 +306,10 @@
                             <p>Learn programming, data structures, and modern software development through labs and team projects.</p>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                    <div class="flex flex-col gap-9.75 lg:gap-24 bg-white rounded-lg">
                         <div class="flex flex-row justify-between items-center">
-                            <img class="m-6 w-8 h-8" src="assets/images/programs/data-science.png">
-                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-2 px-4">Graduate</h6>
+                            <img class="m-4 lg:m-6 w-4.5 lg:w-8 h-4.5 lg:h-8" src="assets/images/programs/data-science.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-1.5 lg:py-2 px-3 lg:px-4 font-medium text-[14px]">Graduate</h6>
                         </div>
                         <div class="flex flex-col p-6 gap-4">
                             <h5 class="">Data Science</h5>
@@ -311,10 +317,10 @@
                             <p>Turn data into decisions using analytics, visualization, and practical machine learning for real business scenarios.</p>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                    <div class="flex flex-col gap-9.75 lg:gap-24 bg-white rounded-lg">
                         <div class="flex flex-row justify-between items-center">
-                            <img class="m-6 w-8 h-8" src="assets/images/programs/business-administration.png">
-                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-2 px-4">Graduate</h6>
+                            <img class="m-4 lg:m-6 w-4.5 lg:w-8 h-4.5 lg:h-8" src="assets/images/programs/business-administration.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-primary text-white py-1.5 lg:py-2 px-3 lg:px-4 font-medium text-[14px]">Graduate</h6>
                         </div>
                         <div class="flex flex-col p-6 gap-4">
                             <h5 class="">Business Administration</h5>
@@ -322,10 +328,10 @@
                             <p>Build leadership and strategy skills for modern, fast evolving business environments and organizational challenges.</p>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-24 bg-white rounded-lg">
+                    <div class="flex flex-col gap-9.75 lg:gap-24 bg-white rounded-lg">
                         <div class="flex flex-row justify-between items-center">
-                            <img class="m-6 w-8 h-8" src="assets/images/programs/finance.png">
-                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-2 px-4">Undergraduate</h6>
+                            <img class="m-4 lg:m-6 w-4.5 lg:w-8 h-4.5 lg:h-8" src="assets/images/programs/finance.png">
+                            <h6 class="rounded rounded-tr-none rounded-br-none bg-secondary text-white py-1.5 lg:py-2 px-3 lg:px-4 font-medium text-[14px]">Undergraduate</h6>
                         </div>
                         <div class="flex flex-col p-6 gap-4">
                             <h5 class="">Finance</h5>
@@ -333,44 +339,27 @@
                             <p>Understand financial planning, markets, and decision-making through practical case studies and modern tools.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </section>
 
         <section class="border-b border-gray">
-            <div class="container mx-auto flex flex-row">
-                <div class="w-xl shrink-0 text-heading flex flex-col gap-8 p-12">
+            <div class="container mx-auto flex flex-wrap flex-row">
+                <div class="w-full lg:w-xl shrink-0 text-heading flex flex-col gap-5 lg:gap-8 px-6 md:px-8 pb-6 pt-16 lg:p-12">
                     <h6 class="sub-title relative text-sm">Testimonials</h6>
                     <h2 class="font-medium text-[40px] leading-12 tracking-normal">
                         From Our Students
                     </h2>
                 </div>
-                <div class="w-216 shrink-0 p-12 border-l border-gray">
-                    <div class="swiper testimonialSwiper relative">
+                <div class="w-full lg:w-216 shrink-0 p-6 md:p-8 lg:p-12 border-l border-gray">
+                    <div class="swiper testimonialSwiper relative pb-[67px] lg:pb-0">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="flex flex-col gap-25.5">
-                                    <p class="text-accent text-[28px]">
+                                <div class="flex flex-col gap-8 md:gap-12 lg:gap-25.5">
+                                    <p class="text-accent text-[24px] md:text-[26px] lg:text-[28px]">
                                         “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
                                     </p>
-                                    <div class="flex flex-col gap-4">
-                                        <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
-                                        <div>
-                                            <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
-                                            <p>Undergraduate Student,<br> Computer Science</p>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="swiper-slide">
-                                <div class="flex flex-col gap-25.5">
-                                    <p class="text-accent text-[28px]">
-                                        “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
-                                    </p>
-                                    <div class="flex flex-col gap-4">
+                                    <div class="flex flex-row lg:flex-col gap-4">
                                         <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
                                         <div>
                                             <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
@@ -381,11 +370,26 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="flex flex-col gap-25.5">
-                                    <p class="text-accent text-[28px]">
+                                <div class="flex flex-col gap-8 md:gap-12 lg:gap-25.5">
+                                    <p class="text-accent text-[24px] md:text-[26px] lg:text-[28px]">
                                         “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
                                     </p>
-                                    <div class="flex flex-col gap-4">
+                                    <div class="flex flex-row lg:flex-col gap-4">
+                                        <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
+                                        <div>
+                                            <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
+                                            <p>Undergraduate Student,<br> Computer Science</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex flex-col gap-8 md:gap-12 lg:gap-25.5">
+                                    <p class="text-accent text-[24px] md:text-[26px] lg:text-[28px]">
+                                        “Before joining Kinfield, I wasn’t sure I was developing the right skills for my future career. Through hands-on projects and real-world problem solving, I built confidence in my abilities. The mentors were responsive and genuinely invested in my growth, and the campus community felt welcoming and supportive from day one.”
+                                    </p>
+                                    <div class="flex flex-row lg:flex-col gap-4">
                                         <img class="w-30 h-30 rounded-lg" src="assets/images/testimonial/melanie-howirtz.png">
                                         <div>
                                             <h6 class="text-heading text-xl font-medium">Melanie Howirtz</h6>
@@ -413,10 +417,10 @@
                 </div>
             </div>
         </section>
-        <section class="pb-12">
-            <div class="border-b border-gray pt-24 pb-12">
-                <div class="container mx-auto flex flex-row px-12">
-                    <div class="text-heading flex flex-col gap-8">
+        <section class="pb-16 lg:pb-12">
+            <div class="border-b border-gray pt-16 lg:pt-24 pb-6 lg:pb-12">
+                <div class="container mx-auto flex flex-row px-6 md:px-8 lg:px-12">
+                    <div class="text-heading flex flex-col gap-5 lg:gap-8">
                         <h6 class="sub-title relative text-sm">Events</h6>
                         <h2 class="font-medium text-[40px] leading-12 tracking-normal">
                             Upcoming Events
@@ -425,24 +429,27 @@
                 </div>
             </div>
             <div class="border-b border-gray">
-                <div class="container mx-auto p-12 border-l border-r border-gray flex flex-col gap-4">
-                    <div class="flex flex-row">
-                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
-                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                <div class="container mx-auto py-4 px-6 lg:p-12 border-l lg:border-r border-gray flex flex-row lg:flex-col gap-3 lg:gap-4 overflow-x-auto lg:overflow-x-visible
+            snap-x lg:snap-none">
+                    <div class="w-[85vw] shrink-0 flex flex-row snap-start
+                                md:w-[70vw]
+                                lg:w-full lg:shrink">
+                        <div class="rounded-lg bg-[#F8FBFC] flex-1 flex flex-col gap-5 lg:gap-0 lg:flex-row p-3 lg:p-6 ">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:gap-27.25 border-b border-gray lg:border-b-0 lg:border-0 lg:w-[242px] shrink-0">
                                 <h6 class="text-heading text-xl font-medium">01</h6>
-                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
+                                <div class="flex align-bottom justify-between lg:flex-col lg:gap-2 lg:px-2 pt-3 lg:pt-6 lg:border-t border-gray">
                                     <p class="text-heading">Sat,<br> March 8 2025</p>
-                                    <p>10:00–11:30 WIB</p>
+                                    <p class="self-end">10:00–11:30 WIB</p>
                                 </div>
                             </div>
-                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
-                                <div class="flex flex-col gap-2">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-6 lg:gap-20.25 lg:w-[336px] shrink-0 border-b lg:border-b-0 lg:border-l border-gray">
+                                <div class="flex flex-col gap-1.5 lg:gap-2">
                                     <h6 class="text-heading text-xl font-medium">AI Discovery Talk: Building Responsible Intelligence</h6>
                                     <p>An introduction to responsible AI, covering ethics, real-world use, and future impact.</p>
                                 </div>
                                 <p class="text-heading">Kinfield Student Only</p>
                             </div> 
-                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-4 lg:gap-33.25 lg:w-[335px] shrink-0 lg:border-l border-gray">
                                 <p class="text-heading text-[18px]">Speaker</p>
                                 <div class="flex flex-row gap-4">
                                     <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-1.png">
@@ -453,27 +460,28 @@
                                 </div>
                                 
                             </div>
-
                         </div>
-                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-1.png">
+                        <img class="hidden lg:block rounded-lg h-76.5 w-94.75" src="assets/images/events/event-1.png">
                     </div>
-                    <div class="flex flex-row">
-                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
-                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                    <div class="w-[85vw] shrink-0 flex flex-row snap-start
+                                md:w-[70vw]
+                                lg:w-full lg:shrink">
+                        <div class="rounded-lg bg-[#F8FBFC] flex-1 flex flex-col gap-5 lg:gap-0 lg:flex-row p-3 lg:p-6 ">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:gap-27.25 border-b border-gray lg:border-b-0 lg:border-0 lg:w-[242px] shrink-0">
                                 <h6 class="text-heading text-xl font-medium">02</h6>
-                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
+                                <div class="flex align-bottom justify-between lg:flex-col lg:gap-2 lg:px-2 pt-3 lg:pt-6 lg:border-t border-gray">
                                     <p class="text-heading">Wed,<br> April 16 2035</p>
-                                    <p>14:00–15:15 WIB</p>
+                                    <p class="self-end">14:00–15:15 WIB</p>
                                 </div>
                             </div>
-                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
-                                <div class="flex flex-col gap-2">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-6 lg:gap-20.25 lg:w-[336px] shrink-0 border-b lg:border-b-0 lg:border-l border-gray">
+                                <div class="flex flex-col gap-1.5 lg:gap-2">
                                     <h6 class="text-heading text-xl font-medium">Humanities Forum: Culture, Storytelling in the Digital Age</h6>
                                     <p>A look at how digital platforms are reshaping culture and storytelling today.</p>
                                 </div>
                                 <p class="text-heading">Open for Public</p>
                             </div> 
-                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-4 lg:gap-33.25 lg:w-[335px] shrink-0 lg:border-l border-gray">
                                 <p class="text-heading text-[18px]">Speaker</p>
                                 <div class="flex flex-row gap-4">
                                     <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-2.png">
@@ -482,27 +490,30 @@
                                         <p class="text-[14px]">Dean of Humanities</p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
-                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-2.png">
+                        <img class="hidden lg:block rounded-lg h-76.5 w-94.75" src="assets/images/events/event-2.png">
                     </div>
-                    <div class="flex flex-row">
-                        <div class="rounded-lg bg-[#F8FBFC] flex flex-row p-6 ">
-                            <div class="flex flex-col py-2 gap-27.25 w-[242px] shrink-0">
+                    <div class="w-[85vw] shrink-0 flex flex-row snap-start
+                                md:w-[70vw]
+                                lg:w-full lg:shrink">
+                        <div class="rounded-lg bg-[#F8FBFC] flex-1 flex flex-col gap-5 lg:gap-0 lg:flex-row p-3 lg:p-6 ">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:gap-27.25 border-b border-gray lg:border-b-0 lg:border-0 lg:w-[242px] shrink-0">
                                 <h6 class="text-heading text-xl font-medium">03</h6>
-                                <div class="flex flex-col gap-2 px-2 pt-6 border-t border-gray">
-                                    <p class="text-heading">Fri,<br>June 6, 2035</p>
-                                    <p>09:30–11:00 WIB</p>
+                                <div class="flex align-bottom justify-between lg:flex-col lg:gap-2 lg:px-2 pt-3 lg:pt-6 lg:border-t border-gray">
+                                    <p class="text-heading">Fri,<br> June 6, 2035</p>
+                                    <p class="self-end">09:30–11:00 WIB</p>
                                 </div>
                             </div>
-                            <div class="flex flex-col py-2 px-6  gap-20.25 w-[336px] shrink-0 border-l border-gray">
-                                <div class="flex flex-col gap-2">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-6 lg:gap-20.25 lg:w-[336px] shrink-0 border-b lg:border-b-0 lg:border-l border-gray">
+                                <div class="flex flex-col gap-1.5 lg:gap-2">
                                     <h6 class="text-heading text-xl font-medium">Career Lab Workshop: Internship to First Job Roadmap</h6>
                                     <p>Practical guidance on moving from internships to full-time roles.</p>
                                 </div>
                                 <p class="text-heading">Open for Public</p>
                             </div> 
-                            <div class="flex flex-col py-2 px-6  gap-33.25 w-[335px] shrink-0 border-l border-gray">
+                            <div class="flex flex-col px-1.5 lg:px-0 pt-[6px] pb-[16px] lg:py-2 lg:px-6 gap-4 lg:gap-33.25 lg:w-[335px] shrink-0 lg:border-l border-gray">
                                 <p class="text-heading text-[18px]">Speaker</p>
                                 <div class="flex flex-row gap-4">
                                     <img class="w-20 h-19.25 rounded-sm" src="assets/images/events/speaker/speaker-3.png">
@@ -511,21 +522,22 @@
                                         <p class="text-[14px]">Career Services Lead</p>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
-                        <img class="rounded-lg h-76.5 w-94.75" src="assets/images/events/event-3.png">
+                        <img class="hidden lg:block rounded-lg h-76.5 w-94.75" src="assets/images/events/event-3.png">
                     </div>
                 </div>
             </div>
         </section>
         <section class="bg-primary">
-            <div class="container mx-auto flex flex-row">
-                <div class="p-12  border-r border-default basis-1/2">
-                    <img src="assets/images/image-3.png" class="w-155.75 h-118 object-cover rounded-lg">
+            <div class="container mx-auto flex flex-col lg:flex-row">
+                <div class="p-6 md:p-8 lg:p-12  border-r border-default basis-1/2">
+                    <img src="assets/images/image-3.png" class="w-full lg:w-155.75 h-72 md:h-110 lg:h-118 object-cover rounded-lg">
                 </div>
                 <div class="flex flex-col justify-center text-white basis-1/2">
-                        <div class="flex flex-col gap-16 border-y border-default p-12">
-                            <div class="flex-col flex gap-8">
+                        <div class="flex flex-col gap-16 border-y border-default px-6 pt-6 pb-16 md:px-8 md:pt-8 lg:p-12">
+                            <div class="flex-col flex gap-5 lg:gap-8">
                                 <h6 class="sub-title white relative text-sm">Contact Us</h6>
                                 <div class="flex-col flex gap-4">
                                     <h2 class="font-medium text-[40px] leading-12 tracking-normal">
@@ -536,9 +548,9 @@
                                     </p>
                                 </div>
                             </div>
-                             <a
+                            <a
                                 href="#"
-                                class="self-start font-semibold rounded border-1 hover:border-white hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
+                                class="self-start btn font-semibold rounded border-white border-1 hover:border-white hover:bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition "
                             >
                                 Contact Our Admin
                             </a>
@@ -547,11 +559,11 @@
             </div>
         </section>
         <section class="">
-            <div class="container mx-auto flex flex-row">
-                <div class="px-12 py-24 border-r border-default basis-1/2 flex flex-col justify-between">
-                    <div class="flex-col flex gap-8">
+            <div class="container mx-auto flex flex-col md:flex-row gap-4">
+                <div class="px-6 md:px-8 lg:px-12 pb-6 pt-16 md:py-22 lg:py-24 border-r border-default basis-1/2 flex flex-col gap-6 justify-between">
+                    <div class="flex-col flex gap-5 lg:gap-8">
                         <h6 class="sub-title relative text-sm text-heading">FAQ</h6>
-                        <div class="flex-col flex gap-4">
+                        <div class="flex-col flex gap-3 lg:gap-4">
                             <h2 class="font-medium text-[40px] leading-12 tracking-normal text-heading">
                                 Help Center
                             </h2>
@@ -560,15 +572,15 @@
                             </p>
                         </div>
                     </div>
-                    <div class="flex flex-row justify-between items-end">
-                        <p>Or get in touch with our <br> Support Team.</p>
-                        <a class="self-end" href="mailto:hello@kinfield.edu">hello@kinfield.edu</a>
+                    <div class="flex flex-col gap-4 lg:flex-row justify-between lg:items-end">
+                        <p class="lg:w-[218px]">Or get in touch with our Support Team.</p>
+                        <a class="lg:self-end" href="mailto:hello@kinfield.edu">hello@kinfield.edu</a>
                     </div>
                 </div>
-                <div class="flex flex-col justify-center py-24 basis-1/2 border-l border-gray">
+                <div class="flex flex-col justify-center pt-0 pb-16 md:py-22 lg:py-24 basis-1/2 border-l border-gray">
                         <div class="flex flex-col border-t border-gray">
                             <!-- Accordion Item -->
-                            <div class="border-b border-gray  px-12 py-6">
+                            <div class="border-b border-gray p-4 md:px-8 lg:px-12 md:py-8 lg:py-6">
                                 <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left"
                                     aria-expanded="false">
                                     <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
@@ -593,7 +605,7 @@
                             </div>
 
                             <!-- Accordion Item -->
-                            <div class="border-b border-gray  px-12 py-6">
+                            <div class="border-b border-gray p-4 md:px-8 lg:px-12 md:py-8 lg:py-6">
                                 <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
                                     <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
                                         <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
@@ -617,7 +629,7 @@
                             </div>
 
                             <!-- Accordion Item -->
-                            <div class="border-b border-gray  px-12 py-6">
+                            <div class="border-b border-gray p-4 md:px-8 lg:px-12 md:py-8 lg:py-6">
                                 <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
                                     <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
                                         <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
@@ -641,7 +653,7 @@
                             </div>
 
                             <!-- Accordion Item -->
-                            <div class="border-b border-gray  px-12 py-6">
+                            <div class="border-b border-gray p-4 md:px-8 lg:px-12 md:py-8 lg:py-6">
                                 <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
                                     <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
                                         <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
@@ -664,7 +676,7 @@
                             </div>
 
                             <!-- Accordion Item -->
-                            <div class="border-b border-gray  px-12 py-6">
+                            <div class="border-b border-gray p-4 md:px-8 lg:px-12 md:py-8 lg:py-6">
                                 <button type="button" class="accordion-btn flex w-full items-center gap-6 text-left" aria-expanded="false">
                                     <span class="accordion-icon relative flex h-6 w-6 shrink-0 items-center justify-center">
                                         <span class="absolute h-[2px] w-[15px] bg-heading transition-transform duration-300 ease-in-out"></span>
@@ -689,49 +701,85 @@
             </div>
         </section>
         <section class="border-t border-gray bg-[#F8FBFC]">
-            <div class="container mx-auto flex flex-row ">
-            <div class="basis-1/2 py-12">
-                <div class="text-heading px-12 flex flex-col gap-8">
-                    <h6 class="sub-title relative text-sm">Newsletter Sign Up</h6>
-                    <h2 class="font-semibold text-[28px] leading-[39.2px] basis-1/2">
-                        Get the latest updates on admissions, upcoming events, and new blog posts.
-                    </h2>
+            <div class="container mx-auto flex flex-col lg:flex-row ">
+                <div class="basis-1/2 pt-16 pb-6 lg:py-12">
+                    <div class="text-heading px-6 md:px-8 lg:px-12 flex flex-col gap-5 lg:gap-8">
+                        <h6 class="sub-title relative text-sm">Newsletter Sign Up</h6>
+                        <h2 class="font-semibold text-[24px] md:text-[26px] lg:text-[28px] leading-[39.2px] basis-1/2">
+                            Get the latest updates on admissions, upcoming events, and new blog posts.
+                        </h2>
+                    </div>
                 </div>
-            </div>
-            <div class="basis-1/2 py-12 border-l border-gray">
-                <div class=" px-12 flex flex-col gap-8 ">
-                    <a href="#"
-                        class="self-start font-semibold rounded border-1 hover:border-white bg-primary hover:text-white bg-white px-6 py-4 text-[#01293A] transition ">
-                        Subscribe
-                    </a>
+                <div class="basis-1/2 pt-6 pb-16 lg:py-12 lg:border-l border-t lg:border-t-0 border-gray">
+                    <div class="px-6 md:px-8 lg:px-12">
+                        <form action="" class="flex flex-row lg:flex-col gap-4 lg:gap-6">
+                            <input placeholder="Enter your email" class="flex-auto bg-transparent border-b outline-none border-gray py-[12.5px] px-6 text-[14px]">
+                            <a href="#"
+                                class="flex-1 self-start btn font-semibold rounded border hover:bg-white hover:text-primary bg-primary px-6 py-3 text-white transition ">
+                                Subscribe
+                            </a>
+                        </form>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-black py-12 text-white">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col justify-between gap-8 md:flex-row">
-
-                <div>
-                    <h2 class="text-2xl font-bold">Logo</h2>
-                    <p class="mt-3 text-gray-400">
-                        Your company description.
-                    </p>
+    <footer class="bg-accent text-white">
+        <div class="container mx-auto pb-4 lg:pb-0">
+            <div class="flex flex-col justify-between lg:flex-row">
+                <div class="flex-1 flex flex-col">
+                    <div class="flex flex-col gap-4 lg:gap-6 px-4 py-6 lg:p-12 border-b border-default">
+                        <a href="/" class="relative z-60 block w-32 lg:w-40">
+                            <img
+                                src="/assets/images/logo.svg"
+                                alt="Logo"
+                                class="w-30 h-auto"
+                            >
+                        </a>
+                        <p class="text-[#D6D6D6]">
+                            — Learn with purpose. Grow with people.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-6 lg:gap-12 px-4 py-6 lg:p-12">
+                        <p class="font-medium text-[18px]">240 University Avenue, Suite 300, Global Education District Center 10010</p>
+                        <span class="flex flex-row text-base"><a href="tel:+1 (555) 018-2048">+1 (555) 018-2048</a><a href="mailto:hello@kinfield.edu">hello@kinfield.edu</a></span>
+                    </div>
                 </div>
+                <div class="flex-1 flex flex-row px-4 py-6 lg:p-12 gap-6 lg:gap-12 border-l border-default">
+                    <div class="flex-1 flex flex-col gap-4 lg:gap-6">
+                        <h5 class="font-semibold">Quick Links</h5>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="">Home</a>
+                            <a href="#" class="">About</a>
+                            <a href="#" class="">Program</a>
+                            <a href="#" class="">Contact</a>
 
-                <div class="flex gap-6">
-                    <a href="#" class="hover:text-gray-400">Facebook</a>
-                    <a href="#" class="hover:text-gray-400">Instagram</a>
-                    <a href="#" class="hover:text-gray-400">LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="flex-1 flex flex-col gap-4 lg:gap-6">
+                        <h5 class="font-semibold">References</h5>
+                        <div class="flex flex-col gap-4">
+                            <a href="#" class="">Licenses</a>
+                            <a href="#" class="">Style Guide</a>
+                        </div>
+                    </div>
+                    
                 </div>
-
-            </div>
-
-            <div class="mt-10 border-t border-gray-800 pt-6 text-sm text-gray-500">
-                © 2026 Your Company. All rights reserved.
+                <div class="flex-1 border-l border-default flex flex-col justify-between">
+                     <div  class="flex flex-col gap-4 lg:gap-6 px-4 py-6 lg:p-12">
+                        <h5 class="font-semibold">Social Media</h5>
+                        <div class="flex flex-row social-media">
+                            <a href="#" class="flex-1 mr-4">Instagram</a>
+                            <a href="#" class="flex-1 mx-4">LinkedIn</a>
+                            <a href="#" class="flex-1 mx-4">Youtube</a>
+                        </div>
+                    </div>
+                    <div class=" border-t border-default px-4 py-6 lg:p-12">
+                        © Copyright 2026 Kinfield. Powered by Webflow 
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
