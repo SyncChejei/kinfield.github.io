@@ -113,6 +113,12 @@ footer .social-media a:last-child:after{
 #hero-banner{
     background-image: url('assets/images/hero-banner.png');
 }
+
+@media (max-height: 600px) {
+    #hero-banner{
+        height:600px;
+    }
+}
 .sub-title{
     margin-left: 12px;
 }
