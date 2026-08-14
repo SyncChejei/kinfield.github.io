@@ -1042,6 +1042,9 @@
     .lg\:flex-1 {
       flex: 1;
     }
+    .lg\:flex-auto {
+      flex: auto;
+    }
     .lg\:shrink {
       flex-shrink: 1;
     }
@@ -1214,6 +1217,11 @@
     }
     .lg\:text-\[96px\] {
       font-size: 96px;
+    }
+  }
+  @media (width >= 80rem) {
+    .xl\:block {
+      display: block;
     }
   }
 }
